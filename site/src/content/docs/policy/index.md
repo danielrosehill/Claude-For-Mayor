@@ -6,12 +6,13 @@ sidebar:
   order: 0
 ---
 
-**No policy areas are open yet.** The pipeline, the plugin and the context layer are built; the
-threads have not been pulled.
+**Three areas are open**, all opened on 10 August 2026 by a single dictated account. All three
+are at stage 1: a testimony exists, and nothing has been verified. No jurisdiction map has been
+built yet, which under [the powers doctrine](../method/powers-doctrine.md) means nothing here may
+be proposed.
 
-That is the honest state, and it is the point of publishing it. An area opens when there is a
-first-person account of the problem to open it with — not when someone decides the topic sounds
-important.
+An area opens when there is a first-person account of the problem to open it with — not when
+someone decides the topic sounds important. It advances when the evidence does.
 
 ## How an area opens
 
@@ -28,13 +29,15 @@ None of them advances because a deadline arrived.
 
 ## The status table
 
-Once areas exist, this table tracks them, and it is kept in step with
+This table tracks the areas, and it is kept in step with
 [open tasks](../tasks.md), the [repository README](https://github.com/danielrosehill/Claude-For-Mayor),
 and the landing page.
 
 | Area | Testimony | Jurisdiction | Research | Paper | Manifesto |
 |------|:---------:|:------------:|:--------:|:-----:|:---------:|
-| *(none yet)* | | | | | |
+| [Renting](./renting/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
+| [Housing supply](./housing-supply/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
+| [Construction disruption](./construction-disruption/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
 
 ✅ complete · 🟡 in progress · ⬜ not started
 

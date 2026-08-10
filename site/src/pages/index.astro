@@ -9,8 +9,8 @@ const href = (p: string) => base.replace(/\/$/, '') + '/' + p.replace(/^\//, '')
  * Stage order: testimony → jurisdiction → research → paper → manifesto.
  * Keep in step with the status table in tasks.md — that file is the source of truth.
  *
- * Empty by design: an area opens when a testimony opens it, not when a topic sounds
- * important. The empty state below renders until the first one lands.
+ * An area opens when a testimony opens it, not when a topic sounds important. All three
+ * below were opened by one dictated account on 2026-08-10 and sit at stage 1.
  */
 const planks: {
   title: string;
@@ -18,7 +18,38 @@ const planks: {
   thesis: string;
   stages: string[];
   state: string;
-}[] = [];
+}[] = [
+  {
+    title: 'Renting',
+    slug: 'policy/renting/',
+    thesis:
+      'The city bills, registers and communicates as though every household owns its home. ' +
+      'The arnona arrives in the tenant’s name, cannot be paid monthly, and the risk when ' +
+      'a tenancy ends mid-cycle lands on the person who owns nothing.',
+    stages: ['done', 'todo', 'todo', 'todo', 'todo'],
+    state: 'Stage 1 · testimony captured, jurisdiction gate not yet run',
+  },
+  {
+    title: 'Housing supply',
+    slug: 'policy/housing-supply/',
+    thesis:
+      'A city consistently ranked among the poorest in Israel, adding high-rise stock built ' +
+      'and marketed as luxury. How much of that unit mix a municipality actually controls is ' +
+      'the open question, and it is not yet answered.',
+    stages: ['done', 'todo', 'todo', 'todo', 'todo'],
+    state: 'Stage 1 · testimony captured, jurisdiction gate not yet run',
+  },
+  {
+    title: 'Construction disruption',
+    slug: 'policy/construction-disruption/',
+    thesis:
+      'Light rail works and tower construction running at once, main roads that simply end, ' +
+      'no signage and no central place to find out what is closed. Building the network is ' +
+      'defensible; the information vacuum around it may not be.',
+    stages: ['done', 'todo', 'todo', 'todo', 'todo'],
+    state: 'Stage 1 · testimony captured, jurisdiction gate not yet run',
+  },
+];
 
 const stageNames = ['Testimony', 'Jurisdiction', 'Research', 'Paper', 'Manifesto'];
 ---
@@ -84,8 +115,10 @@ const stageNames = ['Testimony', 'Jurisdiction', 'Research', 'Paper', 'Manifesto
   <div class="cfm-section-head">
     <h2>The platform, as it stands</h2>
     <p>
-      Nothing. The method is built and the content is not — no policy area has been opened,
-      because an area opens when there is a first-person account to open it with.
+      Three areas, all at stage one. They were opened on 10 August 2026 by a single dictated
+      account of ten years living here — and under this project's own rules, not one of them
+      may propose anything until its jurisdiction map exists.{' '}
+      <a href={href('context/whose-account/')}>Whose account that is, and what it cannot see</a>.
     </p>
   </div>
 

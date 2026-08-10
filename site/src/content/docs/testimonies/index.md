@@ -10,7 +10,9 @@ First-person accounts of living in Jerusalem that anchor the platform's policy w
 starts from lived experience, then gets stress-tested against data, against comparator cities,
 and against the question of who actually holds the lever — not the other way around.
 
-**None have been captured yet.** The first testimony opens the first policy area.
+**Three have been captured**, all from a single dictated account on 10 August 2026, and between
+them they open the project's first three policy areas. Who gave that account, and what it cannot
+see, is set out in [whose account this is](../context/whose-account.md).
 
 ## Rules
 
@@ -49,4 +51,10 @@ as an error in the testimony — the testimony records what a resident believed,
 
 | Date | Policy area | Testimony |
 |------|-------------|-----------|
-| *(none yet)* | | |
+| 2026-08-10 | [renting](../policy/renting/index.md) | [Ten years renting in Jerusalem](./2026-08-10-renting.md) |
+| 2026-08-10 | [housing-supply](../policy/housing-supply/index.md) | [A poor city building luxury towers](./2026-08-10-housing-supply.md) |
+| 2026-08-10 | [construction-disruption](../policy/construction-disruption/index.md) | [Everything dug up at once](./2026-08-10-construction-disruption.md) |
+
+All three come from one household on one day. That is a real limitation, not a formality: three
+areas resting on a single vantage point is exactly the case where testimony gets mistaken for
+prevalence, and the data annexes in stage 2 are what have to carry them.
