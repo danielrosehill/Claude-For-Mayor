@@ -9,7 +9,7 @@ const href = (p: string) => base.replace(/\/$/, '') + '/' + p.replace(/^\//, '')
  * Stage order: testimony → jurisdiction → research → paper → manifesto.
  * Keep in step with the status table in tasks.md — that file is the source of truth.
  *
- * An area opens when a testimony opens it, not when a topic sounds important. All three
+ * An area opens when a testimony opens it, not when a topic sounds important. All seven
  * below were opened by one dictated account on 2026-08-10 and sit at stage 1.
  */
 const planks: {
@@ -46,6 +46,46 @@ const planks: {
       'Light rail works and tower construction running at once, main roads that simply end, ' +
       'no signage and no central place to find out what is closed. Building the network is ' +
       'defensible; the information vacuum around it may not be.',
+    stages: ['done', 'todo', 'todo', 'todo', 'todo'],
+    state: 'Stage 1 · two testimonies captured, jurisdiction gate not yet run',
+  },
+  {
+    title: 'Construction noise',
+    slug: 'policy/construction-noise/',
+    thesis:
+      'Deep-foundation excavation measured by a resident at 110 dB, with no published permit ' +
+      'conditions, no duration cap anyone can point to, and no independent measurement. The ' +
+      'objection is not the noise — it is that you cannot find out when it stops.',
+    stages: ['done', 'todo', 'todo', 'todo', 'todo'],
+    state: 'Stage 1 · testimony captured, jurisdiction gate not yet run',
+  },
+  {
+    title: 'City-centre businesses',
+    slug: 'policy/city-centre-businesses/',
+    thesis:
+      'Traders closing under prolonged works with no compensation offered, against a collection ' +
+      'machine described as extremely rigorous. Whether the city could relieve them, and whether ' +
+      'any Israeli municipality ever has, is the question.',
+    stages: ['done', 'todo', 'todo', 'todo', 'todo'],
+    state: 'Stage 1 · testimony captured, jurisdiction gate not yet run',
+  },
+  {
+    title: 'Environmental quality',
+    slug: 'policy/environmental-quality/',
+    thesis:
+      'City-wide horn use and air quality below what a capital ought to have — two conditions ' +
+      'everyone lives inside and nobody campaigns on. Also the area most likely to come back ' +
+      'class D, which is exactly why it gets mapped before it gets promised.',
+    stages: ['done', 'todo', 'todo', 'todo', 'todo'],
+    state: 'Stage 1 · two-sentence testimony, jurisdiction gate not yet run',
+  },
+  {
+    title: 'Capital priorities',
+    slug: 'policy/capital-priorities/',
+    thesis:
+      'Tourism and prestige capital against neighbourhood infrastructure — a walkway to the Old ' +
+      'City the author has never used in ten years here. It is an arithmetic claim, and it ' +
+      'stands or falls on whether that money was ever the city’s to move.',
     stages: ['done', 'todo', 'todo', 'todo', 'todo'],
     state: 'Stage 1 · testimony captured, jurisdiction gate not yet run',
   },
@@ -115,9 +155,10 @@ const stageNames = ['Testimony', 'Jurisdiction', 'Research', 'Paper', 'Manifesto
   <div class="cfm-section-head">
     <h2>The platform, as it stands</h2>
     <p>
-      Three areas, all at stage one. They were opened on 10 August 2026 by a single dictated
+      Seven areas, all at stage one. They were opened on 10 August 2026 by a single dictated
       account of ten years living here — and under this project's own rules, not one of them
-      may propose anything until its jurisdiction map exists.{' '}
+      may propose anything until its jurisdiction map exists. Seven areas and no jurisdiction
+      maps is the wrong ratio, and it is the next thing to fix.{' '}
       <a href={href('context/whose-account/')}>Whose account that is, and what it cannot see</a>.
     </p>
   </div>

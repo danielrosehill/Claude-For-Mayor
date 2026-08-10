@@ -65,6 +65,13 @@ Stated plainly, so that it can be corrected. This account comes from a household
 Where a testimony's reach runs out, the fix is data, comparator cities, and the city's own
 published record — not a more strongly worded testimony.
 
+The language point turns out to be the sharpest of the four. The account's own closing observation
+is that dissatisfaction with daily life in Jerusalem is largely contained, because it happens
+offline and in Hebrew — which means an English-language project run from this vantage point will
+systematically under-sample exactly the evidence it most needs.
+[The argument the city is having](./the-ideological-agenda.md) sets that out, and it is a research
+obligation rather than a disclaimer.
+
 ## The thread that is not yet a policy area
 
 One strand of the account has no area open behind it: **Jerusalem as an economic and

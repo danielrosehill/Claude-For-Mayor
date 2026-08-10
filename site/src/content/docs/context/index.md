@@ -28,10 +28,12 @@ four reasons:
 
 ```
 context/
-├── the-election/     The municipal electoral system, the 2024 result, the next election
-├── city-hall/        The current council: factions, coalition, the mayor and his record
-├── powers/           The standing powers primer: bodies, instruments, constraints
-└── matrices/         Policy comparison matrices, one per policy area
+├── whose-account.md          The vantage point this platform is written from
+├── the-ideological-agenda.md What the city's public argument is actually about
+├── the-election/             The municipal electoral system, the 2024 result, the next election
+├── city-hall/                The current council: factions, coalition, the mayor's record
+├── powers/                   The standing powers primer: bodies, instruments, constraints
+└── matrices/                 Policy comparison matrices, one per policy area
 ```
 
 ## Rules

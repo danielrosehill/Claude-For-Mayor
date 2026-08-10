@@ -57,6 +57,10 @@ export default defineConfig({
             { label: 'Renting', link: '/policy/renting/' },
             { label: 'Housing supply', link: '/policy/housing-supply/' },
             { label: 'Construction disruption', link: '/policy/construction-disruption/' },
+            { label: 'Construction noise', link: '/policy/construction-noise/' },
+            { label: 'City-centre businesses', link: '/policy/city-centre-businesses/' },
+            { label: 'Environmental quality', link: '/policy/environmental-quality/' },
+            { label: 'Capital priorities', link: '/policy/capital-priorities/' },
           ],
         },
         {
@@ -73,6 +77,23 @@ export default defineConfig({
               label: 'Everything dug up at once',
               link: '/testimonies/2026-08-10-construction-disruption/',
             },
+            {
+              label: 'A diversion map like a plate of spaghetti',
+              link: '/testimonies/2026-08-10-construction-disruption-pedestrian/',
+            },
+            {
+              label: 'Shuttered shops, and nothing offered',
+              link: '/testimonies/2026-08-10-city-centre-businesses/',
+            },
+            {
+              label: 'One hundred and ten decibels',
+              link: '/testimonies/2026-08-10-construction-noise/',
+            },
+            { label: 'The horns, and the air', link: '/testimonies/2026-08-10-environmental-quality/' },
+            {
+              label: 'A bridge I have never used',
+              link: '/testimonies/2026-08-10-capital-priorities/',
+            },
           ],
         },
         {
@@ -81,6 +102,10 @@ export default defineConfig({
           items: [
             { label: 'Why it exists', link: '/context/' },
             { label: 'Whose account this is', link: '/context/whose-account/' },
+            {
+              label: 'The argument the city is having',
+              link: '/context/the-ideological-agenda/',
+            },
             { label: 'The election', link: '/context/the-election/' },
             { label: 'City Hall', link: '/context/city-hall/' },
             { label: 'Municipal powers', link: '/context/powers/' },

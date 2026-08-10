@@ -53,9 +53,9 @@ Full statement: **[the powers doctrine](./site/src/content/docs/method/powers-do
 ## Status
 
 **The method is built and the content has just started.** On 10 August 2026 the first testimony
-landed — one dictated account of ten years living here, which opened three areas at once. All
-three sit at stage 1, and under the powers doctrine none of them may propose anything until its
-jurisdiction map exists.
+landed — one dictated account of ten years living here, given in two sittings, which opened seven
+areas at once. All seven sit at stage 1, and under the powers doctrine none of them may propose
+anything until its jurisdiction map exists.
 
 | Layer | State |
 |---|---|
@@ -64,7 +64,7 @@ jurisdiction map exists.
 | Context — the 2024 election result and council arithmetic | 🟡 recorded, from a secondary source |
 | Context — City Hall coalition and record | 🟡 research plan only |
 | Context — the powers primer | 🟡 hypotheses and research plan; **nothing verified yet** |
-| Policy areas | 🟡 three open, all at stage 1 |
+| Policy areas | 🟡 seven open, all at stage 1 |
 | Program for the city | ⬜ empty, by design |
 
 | Area | Testimony | Jurisdiction | Research | Paper | Manifesto |
@@ -72,8 +72,13 @@ jurisdiction map exists.
 | [Renting](./site/src/content/docs/policy/renting/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
 | [Housing supply](./site/src/content/docs/policy/housing-supply/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
 | [Construction disruption](./site/src/content/docs/policy/construction-disruption/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
+| [Construction noise](./site/src/content/docs/policy/construction-noise/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
+| [City-centre businesses](./site/src/content/docs/policy/city-centre-businesses/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
+| [Environmental quality](./site/src/content/docs/policy/environmental-quality/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
+| [Capital priorities](./site/src/content/docs/policy/capital-priorities/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
 
-All three rest on a single household's account given on a single day. That is stated plainly in
+All seven rest on a single household's account given on a single day, and they vary a great deal
+in how much testimony is actually behind them. That is stated plainly in
 [whose account this is](./site/src/content/docs/context/whose-account.md), along with what that
 vantage point cannot see.
 

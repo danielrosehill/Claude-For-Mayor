@@ -10,16 +10,18 @@ First-person accounts of living in Jerusalem that anchor the platform's policy w
 starts from lived experience, then gets stress-tested against data, against comparator cities,
 and against the question of who actually holds the lever — not the other way around.
 
-**Three have been captured**, all from a single dictated account on 10 August 2026, and between
-them they open the project's first three policy areas. Who gave that account, and what it cannot
-see, is set out in [whose account this is](../context/whose-account.md).
+**Eight captured**, all from one dictated account on 10 August 2026 given in two sittings, and
+between them they open the project's first seven policy areas. Who gave the account, and what it
+cannot see, is set out in [whose account this is](../context/whose-account.md).
 
 ## Rules
 
 1. **Only cleaned testimonies are committed.** Raw dictations, recordings, and transcripts stay
    out of the public repo. `testimonies-raw/` at the repository root is a gitignored staging area,
    deliberately kept outside the published content tree — drop raw material there for processing.
-2. **Every testimony is dated** and named `YYYY-MM-DD-<policy-area>.md`.
+2. **Every testimony is dated** and named `YYYY-MM-DD-<policy-area>.md`. Where an area gains a
+   second testimony on the same date, a short descriptive suffix is added —
+   `2026-08-10-construction-disruption-pedestrian.md`.
 3. **Cleaning preserves voice and facts.** Editing removes disfluencies and tightens prose; it
    never adds claims, softens them, or changes their substance.
 4. **Redaction before commit.** Full names of private individuals, exact addresses, and
@@ -54,7 +56,16 @@ as an error in the testimony — the testimony records what a resident believed,
 | 2026-08-10 | [renting](../policy/renting/index.md) | [Ten years renting in Jerusalem](./2026-08-10-renting.md) |
 | 2026-08-10 | [housing-supply](../policy/housing-supply/index.md) | [A poor city building luxury towers](./2026-08-10-housing-supply.md) |
 | 2026-08-10 | [construction-disruption](../policy/construction-disruption/index.md) | [Everything dug up at once](./2026-08-10-construction-disruption.md) |
+| 2026-08-10 | [construction-disruption](../policy/construction-disruption/index.md) | [A diversion map like a plate of spaghetti](./2026-08-10-construction-disruption-pedestrian.md) |
+| 2026-08-10 | [city-centre-businesses](../policy/city-centre-businesses/index.md) | [Shuttered shops, and nothing offered](./2026-08-10-city-centre-businesses.md) |
+| 2026-08-10 | [construction-noise](../policy/construction-noise/index.md) | [One hundred and ten decibels](./2026-08-10-construction-noise.md) |
+| 2026-08-10 | [environmental-quality](../policy/environmental-quality/index.md) | [The horns, and the air](./2026-08-10-environmental-quality.md) |
+| 2026-08-10 | [capital-priorities](../policy/capital-priorities/index.md) | [A bridge I have never used](./2026-08-10-capital-priorities.md) |
 
-All three come from one household on one day. That is a real limitation, not a formality: three
-areas resting on a single vantage point is exactly the case where testimony gets mistaken for
-prevalence, and the data annexes in stage 2 are what have to carry them.
+All eight come from one household on one day. That is a real limitation and not a formality:
+seven areas resting on a single vantage point is exactly the case where testimony gets mistaken
+for prevalence, and the data annexes in stage 2 are what will have to carry them.
+
+The concentration got worse rather than better on 10 August. Six of the eight came from one
+further sitting, offered as a scattergun list, and several are two or three sentences long. Each
+area's tracker states how thin its own testimony is; none of them pretends otherwise.

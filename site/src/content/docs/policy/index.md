@@ -6,10 +6,10 @@ sidebar:
   order: 0
 ---
 
-**Three areas are open**, all opened on 10 August 2026 by a single dictated account. All three
-are at stage 1: a testimony exists, and nothing has been verified. No jurisdiction map has been
-built yet, which under [the powers doctrine](../method/powers-doctrine.md) means nothing here may
-be proposed.
+**Seven areas open**, all opened on 10 August 2026 by a single dictated account given in two
+sittings. All seven sit at stage 1: testimony exists, and nothing has been verified. No
+jurisdiction map has been built yet, which under
+[the powers doctrine](../method/powers-doctrine.md) means nothing may be proposed.
 
 An area opens when there is a first-person account of the problem to open it with — not when
 someone decides the topic sounds important. It advances when the evidence does.
@@ -38,6 +38,10 @@ and the landing page.
 | [Renting](./renting/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
 | [Housing supply](./housing-supply/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
 | [Construction disruption](./construction-disruption/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
+| [Construction noise](./construction-noise/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
+| [City-centre businesses](./city-centre-businesses/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
+| [Environmental quality](./environmental-quality/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
+| [Capital priorities](./capital-priorities/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
 
 ✅ complete · 🟡 in progress · ⬜ not started
 
