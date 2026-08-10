@@ -53,7 +53,7 @@ Full statement: **[the powers doctrine](./site/src/content/docs/method/powers-do
 ## Status
 
 **The method is built and the content has just started.** On 10 August 2026 the first testimony
-landed — one dictated account of ten years living here, given in three sittings, which opened eight
+landed — one dictated account of ten years living here, given across five sittings, which opened eight
 areas at once. All eight sit at stage 1, and under the powers doctrine none of them may propose
 anything until its jurisdiction map exists.
 
@@ -76,7 +76,7 @@ anything until its jurisdiction map exists.
 | [Small businesses](./site/src/content/docs/policy/small-businesses/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
 | [Environmental quality](./site/src/content/docs/policy/environmental-quality/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
 | [Capital priorities](./site/src/content/docs/policy/capital-priorities/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
-| [Buses](./site/src/content/docs/policy/buses/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
+| [Public transport](./site/src/content/docs/policy/public-transport/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
 
 All eight rest on a single household's account given on a single day, and they vary a great deal
 in how much testimony is actually behind them. That is stated plainly in

@@ -61,7 +61,7 @@ export default defineConfig({
             { label: 'Small businesses', link: '/policy/small-businesses/' },
             { label: 'Environmental quality', link: '/policy/environmental-quality/' },
             { label: 'Capital priorities', link: '/policy/capital-priorities/' },
-            { label: 'Buses', link: '/policy/buses/' },
+            { label: 'Public transport', link: '/policy/public-transport/' },
           ],
         },
         {
@@ -97,7 +97,11 @@ export default defineConfig({
             },
             {
               label: 'An hour to Talpiot, four hours home',
-              link: '/testimonies/2026-08-10-buses/',
+              link: '/testimonies/2026-08-10-public-transport/',
+            },
+            {
+              label: 'Roving gangs of inspectors',
+              link: '/testimonies/2026-08-10-public-transport-enforcement/',
             },
           ],
         },

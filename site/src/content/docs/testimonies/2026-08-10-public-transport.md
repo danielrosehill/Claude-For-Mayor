@@ -2,7 +2,7 @@
 title: An hour to Talpiot, four hours home
 description: One errand to the Talpiot industrial area — buses that no longer came at anything like their old frequency, a diverted route that went nowhere near where it used to, and a row of shops replaced by construction sites.
 date: 2026-08-10
-policy-area: buses
+policy-area: public-transport
 status: cleaned
 source: Dictated by the repository owner, 10 August 2026, describing a journey made a few weeks earlier. Raw transcript retained privately in `testimonies-raw/`, outside the published tree.
 ---

@@ -15,7 +15,7 @@ unsourced parts.
 
 The **method is built and the content has just started**. The pipeline, the plugin, the powers
 doctrine and the context scaffold exist. On 10 August 2026 the first testimony landed — a single
-dictated account, given in three sittings, which opened eight areas at once. All eight sit at stage
+dictated account, given across five sittings, which opened eight areas at once. All eight sit at stage
 1, and under our own rules nothing in them may be proposed until the jurisdiction gate has been
 run.
 
@@ -54,7 +54,7 @@ statement of a diversified economic alternative to the bets the platform critici
 | [Small businesses](./policy/small-businesses/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
 | [Environmental quality](./policy/environmental-quality/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
 | [Capital priorities](./policy/capital-priorities/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
-| [Buses](./policy/buses/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
+| [Public transport](./policy/public-transport/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
 
 ✅ complete · 🟡 in progress · ⬜ not started
 
@@ -90,12 +90,16 @@ something.
 | 17 | Who enforces unnecessary horn use | Nothing | The Traffic Regulations provision and the enforcing body — expected to be Israel Police, which would make the headline grievance class **D** | Whether **environmental-quality** has a municipal proposal in it at all |
 | 18 | The funding and delivery of Jerusalem's tourism and prestige capital projects, including the Old City walkway | Nothing | The development budget by programme, the split between municipal and national/development-authority money, and whether any of it was ever fungible | The **capital-priorities** jurisdiction map, and the viability of its whole argument |
 | 19 | That the loudest municipal argument is not the one with the largest effect on residents | Framing claim from the account, unsourced | Resident priority survey data, council and committee agenda analysis, and Hebrew-language local press coverage by subject | [The argument the city is having](./context/the-ideological-agenda.md), and a good deal of this platform's emphasis |
-| 20 | Bus frequency on the affected corridors has fallen far below its previous level | Testimony only | Published timetable data before and during the works, and whether the cause is the works, a driver shortage or a specification change | The **buses** problem statement |
-| 21 | Who owns and maintains Jerusalem's bus stops, shelters and shade | Nothing | Ownership, any advertising concession, and shelter coverage by neighbourhood | The likeliest class-A finding in **buses** |
+| 20 | Bus frequency on the affected corridors has fallen far below its previous level | Testimony only | Published timetable data before and during the works, and whether the cause is the works, a driver shortage or a specification change | The **public-transport** problem statement |
+| 21 | Who owns and maintains Jerusalem's bus stops, shelters and shade | Nothing | Ownership, any advertising concession, and shelter coverage by neighbourhood | The likeliest class-A finding in **public-transport** |
 | 22 | Whether small commercial stock in Talpiot is being replaced by residential high-rise as a planning outcome the city chose | Testimony only | Permits granted, zoning changes, and whether the municipality had discretion | **small-businesses**, and a second mechanism distinct from works disruption |
 | 23 | Jerusalem has "good fibre penetration" | Account only | Penetration by neighbourhood against national figures, and whether the city held any lever over deployment | The remote-work argument in [what is good about the city](./context/what-works.md) |
 | 24 | Fast, reliable rail makes the Tel Aviv/Jerusalem opposition outdated | Account only | Journey times, frequency and the reliability record on the line | The same argument, and the economic thread generally |
 | 25 | The city has coupled its plans to diplomatic events and embassy openings | Account only | What has actually been committed on that basis, as against public messaging about it | **capital-priorities**, where it is the mirror of the tourism objection |
+| 26 | Who employs and directs fare inspectors on Jerusalem buses and the light rail, and under what statutory power | Nothing | The operator/concession structure, the inspection power, and whether any conduct standard or complaint route exists | Whether the enforcement half of **public-transport** has a municipal hook at all |
+| 27 | The documented cases of inspector conduct described as a national media phenomenon | Recollection only | Sourced, dated reporting, characterised accurately rather than from memory | The **public-transport** problem statement — and the claim most likely to be overstated if left unchecked |
+| 28 | Whether what changed in the bus market was deregulation or competitive tendering | Testimony, hedged by the speaker | The reform's actual shape, because it determines who can change the outcome | **public-transport**, and a likely wrong-attribution finding |
+| 29 | The actual Jerusalem fare and the actual fine, in shekels | Illustrative dollar figures the speaker flagged as approximate | The published fare and penalty | Any use of the disproportion argument; the illustration must never become the citation |
 
 ## Next actions
 
@@ -113,8 +117,9 @@ something.
    5. **housing-supply** — depends most on the standing powers primer being done.
    6. **capital-priorities** — the jurisdiction question and the evidence question are the same
       question here, so it is the most expensive of the seven.
-   7. **buses** — expected **C/D** on the service itself, but the split it forces between a
-      nationally franchised service and the municipal street furniture around it is reusable.
+   7. **public-transport** — expected **C/D** on both the service and the fare-enforcement
+      regime, but the split it forces between a nationally franchised service and the municipal
+      street furniture around it is reusable across the transit material.
    8. **environmental-quality** — last on purpose. A **D** on the headline grievance is a live
       possibility, and finding that out cheaply is what the gate is for.
 

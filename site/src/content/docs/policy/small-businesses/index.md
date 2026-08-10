@@ -13,7 +13,7 @@ Opened by [Shuttered shops, and nothing offered](../../testimonies/2026-08-10-sm
 10 August 2026.
 
 Further evidence from the same day in
-[An hour to Talpiot, four hours home](../../testimonies/2026-08-10-buses.md), which describes the
+[An hour to Talpiot, four hours home](../../testimonies/2026-08-10-public-transport.md), which describes the
 same pattern in the Talpiot industrial area — small shops closed and replaced by construction sites
 and high-rise. **The area was originally opened as `city-centre-businesses` and renamed** once that
 second account showed the phenomenon is not confined to the centre. Do not narrow it back.
