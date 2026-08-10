@@ -42,6 +42,11 @@ export default defineConfig({
           items: [
             { label: 'What this is', link: '/' },
             { label: 'The manifesto', link: '/platform/', badge: { text: 'empty', variant: 'caution' } },
+            {
+              label: 'The emerging spine',
+              link: '/platform/spine/',
+              badge: { text: 'pre-gate', variant: 'note' },
+            },
             { label: 'Status & open tasks', link: '/tasks/' },
           ],
         },
@@ -102,6 +107,40 @@ export default defineConfig({
             {
               label: 'Roving gangs of inspectors',
               link: '/testimonies/2026-08-10-public-transport-enforcement/',
+            },
+          ],
+        },
+        {
+          // Problems with no testimony behind them. Deliberately listed after the testimonies
+          // and before the context layer: they are weaker evidence than the former and are not
+          // ground truth like the latter.
+          label: 'Observations',
+          collapsed: true,
+          items: [
+            { label: 'Overview', link: '/observations/' },
+            {
+              label: "The city's own economy",
+              link: '/observations/2026-08-10-the-jerusalem-economy/',
+            },
+            {
+              label: 'Being told, and being heard',
+              link: '/observations/2026-08-10-consultation-and-objection/',
+            },
+            {
+              label: 'Getting a pram past the works',
+              link: '/observations/2026-08-10-pram-and-step-free-access/',
+            },
+            {
+              label: 'Heat, and the absence of shade',
+              link: '/observations/2026-08-10-heat-and-shade/',
+            },
+            {
+              label: 'The city in languages other than Hebrew',
+              link: '/observations/2026-08-10-municipal-information-in-english/',
+            },
+            {
+              label: 'What happens when you complain',
+              link: '/observations/2026-08-10-what-happens-when-you-complain/',
             },
           ],
         },

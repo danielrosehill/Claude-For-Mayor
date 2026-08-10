@@ -16,6 +16,19 @@ workspace.
 
 `program-for-the-city.md` will be created by `/update-platform` once the first paper lands.
 
+## What is here in the meantime
+
+[**The emerging spine**](./spine.md) — not a draft of the program and not a substitute for it.
+Eight policy areas opened on one day, and read together they describe a much smaller number of
+recurring mechanisms than eight. Naming those is analysis of what has been *said*, which stage 1
+permits; it proposes nothing, carries no class letters, and cites nothing, because no jurisdiction
+map exists yet.
+
+The distinction is worth holding rather than blurring. The spine says *this is what the evidence
+base appears to be about*. The program will say *this is what a mayor would do about it, under
+this instrument, for this money*. Only the second needs the gate, and only the second is a
+platform.
+
 ## How it will be organised
 
 Not by theme. **By deliverability**, because that is the first honest question about any mayoral

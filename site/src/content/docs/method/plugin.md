@@ -33,6 +33,7 @@ the arnona constraint are Israeli.
 | Command | Stage | What it does |
 |---------|:-----:|--------------|
 | `/capture-testimony` | 1 | Turns a raw dictation or transcript into a dated, cleaned, redacted testimony. Enforces the redaction and frontmatter rules, updates the index, and creates the policy-area tracker. Extracts two lists: facts to establish, and **attributions to test**. |
+| `/capture-observation` | — | Records a problem with no testimony behind it into [`observations/`](../observations/index.md), establishing its lineage *first* and refusing to write without one. Deliberately cannot open a policy area — only testimony does that. |
 | `/map-powers <area>` | 2a | Builds the jurisdiction map — every lever traced to a cited instrument and classified A/B/C/D, with a dedicated hunt for municipal powers that exist and are not being used. |
 | `/research-policy <area>` | 2 | Builds the six-document evidence base. Web research, not recall — every quantitative claim is sourced or marked `[UNVERIFIED]`. |
 | `/draft-paper <area>` | 3 | Compiles the evidence into a Typst policy paper against the house template, with class-tagged, costed proposals and a steelmanned trade-offs section. Refuses to run on an unmapped area or one carrying verification debt. |

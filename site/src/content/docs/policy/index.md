@@ -14,6 +14,13 @@ jurisdiction map has been built yet, which under
 An area opens when there is a first-person account of the problem to open it with — not when
 someone decides the topic sounds important. It advances when the evidence does.
 
+Two things sit alongside the eight without being areas.
+[**Observations**](../observations/index.md) are problems on file with no testimony behind them,
+each declaring how it got here; they cannot open anything, and what they are for is naming the
+testimony worth going out to get. [**The emerging spine**](../platform/spine.md) reads the eight
+as one body of material and finds fewer than eight things in it — useful for deciding which
+jurisdiction question to ask first, and binding on nothing.
+
 ## How an area opens
 
 A policy area starts with a [testimony](../testimonies/index.md): a dated, first-person account

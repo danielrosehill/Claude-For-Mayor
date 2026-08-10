@@ -34,6 +34,18 @@ Use the `/capture-testimony` command from the
 [municipal-policy-assistant plugin](../method/plugin.md) to process a raw account into this
 format.
 
+## Testimonies are not the only door
+
+A problem that nobody happened to dictate used to have nowhere to go, and would either be smuggled
+into a policy area it did not belong in or lost. Since 10 August 2026 it goes to
+[**observations**](../observations/index.md) instead: problems recorded without a first-person
+account behind them, each stating in the open how it came to be on file.
+
+The boundary is strict in both directions. An observation is not evidence of experience and cannot
+be cited as any. A testimony is never *derived* — if the words are not a resident's, the document
+is an observation no matter how well-founded it is. And an area still opens only on testimony,
+which is what stops the project generating its own evidence base.
+
 ## What a testimony is for, and what it is not
 
 A testimony is **evidence of experience, not of prevalence**. One resident's street proves

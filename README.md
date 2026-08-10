@@ -60,11 +60,13 @@ anything until its jurisdiction map exists.
 | Layer | State |
 |---|---|
 | Pipeline, evidence rules, powers doctrine | ✅ written |
-| `municipal-policy-assistant` plugin — 6 commands, 4 skills | ✅ written; `/capture-testimony` run once, the other five untested |
+| `municipal-policy-assistant` plugin — 7 commands, 4 skills | ✅ written; `/capture-testimony` run once, `/capture-observation` new, the rest untested |
 | Context — the 2024 election result and council arithmetic | 🟡 recorded, from a secondary source |
 | Context — City Hall coalition and record | 🟡 research plan only |
 | Context — the powers primer | 🟡 hypotheses and research plan; **nothing verified yet** |
 | Policy areas | 🟡 eight open, all at stage 1 |
+| [Observations](./site/src/content/docs/observations/index.md) — problems with no testimony behind them | 🟡 six recorded, none promoted |
+| [The emerging spine](./site/src/content/docs/platform/spine.md) — what the eight areas have in common | 🟡 five mechanisms named, all pre-gate |
 | Program for the city | ⬜ empty, by design |
 
 | Area | Testimony | Jurisdiction | Research | Paper | Manifesto |
@@ -82,6 +84,23 @@ All eight rest on a single household's account given on a single day, and they v
 in how much testimony is actually behind them. That is stated plainly in
 [whose account this is](./site/src/content/docs/context/whose-account.md), along with what that
 vantage point cannot see.
+
+### Two things that are not policy areas
+
+**[Observations](./site/src/content/docs/observations/index.md)** — problems on file with no
+first-person account behind them: noticed while reading the material back, inferred from an
+account that was about something else, or simply raised in a working session. Each carries a
+mandatory `origin` line saying exactly how it got here, because a weak provenance that declares
+itself is usable and a weak provenance that hides is contamination. An observation is not evidence
+and cannot open an area; what it can do is say which testimony is worth going out and getting.
+
+**[The emerging spine](./site/src/content/docs/platform/spine.md)** — eight areas opened in one day
+are describing fewer than eight things. Five recurring mechanisms account for most of the
+material, and the strongest is that the recoverable failure is usually *informational*: not that
+the works exist, but that nobody will say what is happening or when it stops. That matters
+structurally, because publishing what you already know is the act least likely to run into a
+jurisdiction problem. It is a hypothesis, it proposes nothing, and it is expected to be wrong in
+at least one of its five parts.
 
 Full tracking, including every claim currently resting on a secondary source, in
 **[tasks.md](./site/src/content/docs/tasks.md)**.
@@ -107,8 +126,9 @@ site/
   src/content/docs/        ← the content root; all paths below are relative to it
     policy/                the policy areas: evidence base per area
     testimonies/           stage 1 — dated first-person accounts
+    observations/          problems with no testimony behind them; lineage mandatory
     context/               the election, City Hall, the powers primer, the matrices
-    platform/              stage 4 — the program for the city
+    platform/              stage 4 — the program for the city, plus the pre-gate spine
     method/                the powers doctrine, evidence rules, the plugin
     pipeline.md            the methodology in full
     tasks.md               open work and verification debt, in public
@@ -137,7 +157,7 @@ public history.
 
 The pipeline is automated by a Claude Code plugin shipped in this repo,
 **[municipal-policy-assistant](./plugins/municipal-policy-assistant/)**: a command per stage
-(`/capture-testimony`, `/map-powers`, `/research-policy`, `/draft-paper`, `/update-platform`,
+(`/capture-testimony`, `/capture-observation`, `/map-powers`, `/research-policy`, `/draft-paper`, `/update-platform`,
 `/compare-council`), four method skills encoding the standards, and a bundled MCP server
 ([israel-statistics-mcp](https://github.com/reuvenaor/israel-statistics-mcp)) giving Claude direct
 tool access to Israeli Central Bureau of Statistics (הלמ"ס) index data — no API key needed.

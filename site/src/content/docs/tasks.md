@@ -33,7 +33,7 @@ statement of a diversified economic alternative to the bets the platform critici
 | Layer | State |
 |---|---|
 | Pipeline and evidence rules | ✅ written |
-| `municipal-policy-assistant` plugin — 6 commands, 4 skills | ✅ written; `/capture-testimony` now run once, the other five **still untested** |
+| `municipal-policy-assistant` plugin — 7 commands, 4 skills | ✅ written; `/capture-testimony` now run once, `/capture-observation` added 2026-08-10, the other five **still untested** |
 | Powers doctrine | ✅ written |
 | Context — the election | 🟡 2024 result recorded, from a secondary source |
 | Context — City Hall | 🟡 seat arithmetic only; coalition and record not researched |
@@ -41,7 +41,16 @@ statement of a diversified economic alternative to the bets the platform critici
 | Context — the argument the city is having | 🟡 framing claim recorded, entirely unverified |
 | Context — what is good about the city | 🟡 the asset base recorded, entirely unverified |
 | Policy areas | 🟡 eight open, all at stage 1 |
+| [Observations](./observations/index.md) | 🟡 six recorded, none promoted; a new document class as of 2026-08-10 |
+| [The emerging spine](./platform/spine.md) | 🟡 five mechanisms named, all pre-gate hypotheses |
 | Program for the city | ⬜ empty, by design |
+
+Two of those layers did not exist that morning. **Observations** is a second door into the
+project, for problems that have no first-person account behind them — the previous rule was that a
+problem nobody dictated had nowhere to go, and it was losing material. The price of the door is a
+mandatory `origin` line stating how each one got here; an observation is not evidence and cannot
+open an area. **The spine** reads the eight areas as one body of material rather than eight, which
+is the only honest way to move toward a manifesto while the jurisdiction gate is still unrun.
 
 ## Policy areas
 
@@ -128,6 +137,12 @@ something.
 2. **Build the verified powers primer** — items 1, 2, 6 and 7 above. This is the largest piece of
    standing research in the project and every policy area will draw on it, so doing it once
    properly beats doing it six times partially.
+
+   Add one item to it that [the spine](./platform/spine.md) surfaced: **what the municipality must
+   publish, may publish, and can compel a contractor or delivering body to tell it.** Construction
+   disruption, construction noise and public transport all turn on that same question, as do two
+   observations. Researched once as standing material it is cheap; researched three times inside
+   three jurisdiction maps it is not.
 3. **Research the City Hall baseline** — the coalition as constituted, portfolio and committee
    allocation, any changes since February 2024, and the administration's record. Coalition
    agreements first; they are the highest-value document in that section.
@@ -143,6 +158,12 @@ something.
 7. Broaden the testimony base. Eight areas resting on one household is the project's biggest
    methodological weakness right now, and no amount of stage-2 research fully fixes it. It got
    four times worse on 10 August, not better.
+
+   The [observations](./observations/index.md) now say what to go and ask for, which is the one
+   useful thing they do. Each names the testimony that would promote it: someone who has tried to
+   run a business here, someone who used a formal objection route, someone who could not complete
+   a journey on foot, someone who missed a notice because of the language it was in. Those are
+   four specific asks rather than a general wish for more accounts.
 8. **Go and read the Hebrew.** The account's own closing point is that dissatisfaction here is
    contained in offline, Hebrew-language spaces —
    [the argument the city is having](./context/the-ideological-agenda.md). An English-language
@@ -167,7 +188,9 @@ neighbourhoods that get less of them · animal control · signage and wayfinding
 you call the municipal hotline · **Shabbat and public space** — named in the account as the
 argument the city is actually having, and deliberately not opened as a policy area on the strength
 of that; it opens if there is testimony about it rather than about its salience · **the Jerusalem
-economy** — raised twice now and still not opened. The
+economy** — raised twice now and still not opened, and now written up as
+[an observation](./observations/2026-08-10-the-jerusalem-economy.md) rather than left as a line
+in this paragraph. The
 [opening account](./context/whose-account.md) gives the constraint side: fewer jobs, lower pay, a
 cost of living close to the centre's. [What is good about the city](./context/what-works.md) gives
 the opportunity side: remote work, fibre and rail connectivity, and the argument that the Tel

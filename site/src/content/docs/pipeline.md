@@ -84,6 +84,27 @@ adopted, already promised by four other factions, or dead on arrival with a bloc
 reframed or dropped. See [the context layer's rules](./context/index.md) for the evidence
 standards, which include rating our own column on the same scale as everyone else's.
 
+## The holding area
+
+Not everything worth writing down is a testimony, and stage 1 was originally the only way in.
+`observations/` is the second door: a problem recorded without a first-person account behind it,
+carrying a mandatory `origin` line that states exactly how it came to be on file.
+
+```
+observations/            problems with no testimony behind them, lineage stated
+platform/spine.md        what the areas have in common, read before the gate
+```
+
+Neither is a pipeline stage and neither can advance anything. An observation is not evidence, and
+**an area still opens only on testimony** — otherwise the project would start generating the
+evidence it is supposed to be gathering. What an observation does is tell you which testimony is
+worth going out and getting. The rules are in [observations](./observations/index.md).
+
+`platform/spine.md` is the same idea one level up: eight areas opened in a day are describing
+fewer than eight things, and naming the recurring mechanisms is analysis of what was said rather
+than a claim about what can be done. It proposes nothing and carries no class letters, so it does
+not touch the gate.
+
 ## Stage gates
 
 A policy area does not advance until the current stage meets its bar:

@@ -22,6 +22,12 @@ const pipelineFields = z.object({
   source: z.string().optional(),
   stage: z.string().optional(),
 
+  // Observations — problems recorded without a first-person account behind them.
+  /** How this problem came to be on file. Mandatory on every observation; see observations/index.md. */
+  origin: z.string().optional(),
+  /** What an observation would open if it were promoted: a policy area slug, or `nothing yet`. */
+  opens: z.string().optional(),
+
   // Comparative case studies
   jurisdiction: z.string().optional(),
   instrument: z.string().optional(),
