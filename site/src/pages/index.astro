@@ -9,7 +9,7 @@ const href = (p: string) => base.replace(/\/$/, '') + '/' + p.replace(/^\//, '')
  * Stage order: testimony → jurisdiction → research → paper → manifesto.
  * Keep in step with the status table in tasks.md — that file is the source of truth.
  *
- * An area opens when a testimony opens it, not when a topic sounds important. All seven
+ * An area opens when a testimony opens it, not when a topic sounds important. All eight
  * below were opened by one dictated account on 2026-08-10 and sit at stage 1.
  */
 const planks: {
@@ -60,8 +60,8 @@ const planks: {
     state: 'Stage 1 · testimony captured, jurisdiction gate not yet run',
   },
   {
-    title: 'City-centre businesses',
-    slug: 'policy/city-centre-businesses/',
+    title: 'Small businesses',
+    slug: 'policy/small-businesses/',
     thesis:
       'Traders closing under prolonged works with no compensation offered, against a collection ' +
       'machine described as extremely rigorous. Whether the city could relieve them, and whether ' +
@@ -86,6 +86,16 @@ const planks: {
       'Tourism and prestige capital against neighbourhood infrastructure — a walkway to the Old ' +
       'City the author has never used in ten years here. It is an arithmetic claim, and it ' +
       'stands or falls on whether that money was ever the city’s to move.',
+    stages: ['done', 'todo', 'todo', 'todo', 'todo'],
+    state: 'Stage 1 · testimony captured, jurisdiction gate not yet run',
+  },
+  {
+    title: 'Buses',
+    slug: 'policy/buses/',
+    thesis:
+      'Frequency that fell away, a diverted route nobody could parse, and no shade while you ' +
+      'wait. A mayor does not set a timetable — so the question is what the city does hold ' +
+      'inside a nationally franchised service. Starting with the shelter over the stop.',
     stages: ['done', 'todo', 'todo', 'todo', 'todo'],
     state: 'Stage 1 · testimony captured, jurisdiction gate not yet run',
   },
@@ -155,9 +165,9 @@ const stageNames = ['Testimony', 'Jurisdiction', 'Research', 'Paper', 'Manifesto
   <div class="cfm-section-head">
     <h2>The platform, as it stands</h2>
     <p>
-      Seven areas, all at stage one. They were opened on 10 August 2026 by a single dictated
+      Eight areas, all at stage one. They were opened on 10 August 2026 by a single dictated
       account of ten years living here — and under this project's own rules, not one of them
-      may propose anything until its jurisdiction map exists. Seven areas and no jurisdiction
+      may propose anything until its jurisdiction map exists. Eight areas and no jurisdiction
       maps is the wrong ratio, and it is the next thing to fix.{' '}
       <a href={href('context/whose-account/')}>Whose account that is, and what it cannot see</a>.
     </p>
@@ -193,6 +203,17 @@ const stageNames = ['Testimony', 'Jurisdiction', 'Research', 'Paper', 'Manifesto
       </ul>
     )
   }
+
+  <div class="cfm-note" style="margin-top:1.5rem;">
+    <p style="margin-bottom:0;">
+      Every one of those eight was opened by something going wrong, which is how the pipeline
+      works and also its most predictable failure mode: a platform assembled entirely from
+      grievances ends up describing a city nobody would choose to live in, and then proposes to
+      govern it. The same account says what is good here — the pace, the familiarity, the
+      institutions, and why the city should stop betting its future on events it does not
+      control. <a href={href('context/what-works/')}>What is good about the city</a>.
+    </p>
+  </div>
 
   <hr class="cfm-rule" />
 

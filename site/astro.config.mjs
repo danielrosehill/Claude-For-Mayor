@@ -58,9 +58,10 @@ export default defineConfig({
             { label: 'Housing supply', link: '/policy/housing-supply/' },
             { label: 'Construction disruption', link: '/policy/construction-disruption/' },
             { label: 'Construction noise', link: '/policy/construction-noise/' },
-            { label: 'City-centre businesses', link: '/policy/city-centre-businesses/' },
+            { label: 'Small businesses', link: '/policy/small-businesses/' },
             { label: 'Environmental quality', link: '/policy/environmental-quality/' },
             { label: 'Capital priorities', link: '/policy/capital-priorities/' },
+            { label: 'Buses', link: '/policy/buses/' },
           ],
         },
         {
@@ -83,7 +84,7 @@ export default defineConfig({
             },
             {
               label: 'Shuttered shops, and nothing offered',
-              link: '/testimonies/2026-08-10-city-centre-businesses/',
+              link: '/testimonies/2026-08-10-small-businesses/',
             },
             {
               label: 'One hundred and ten decibels',
@@ -93,6 +94,10 @@ export default defineConfig({
             {
               label: 'A bridge I have never used',
               link: '/testimonies/2026-08-10-capital-priorities/',
+            },
+            {
+              label: 'An hour to Talpiot, four hours home',
+              link: '/testimonies/2026-08-10-buses/',
             },
           ],
         },
@@ -106,6 +111,7 @@ export default defineConfig({
               label: 'The argument the city is having',
               link: '/context/the-ideological-agenda/',
             },
+            { label: 'What is good about the city', link: '/context/what-works/' },
             { label: 'The election', link: '/context/the-election/' },
             { label: 'City Hall', link: '/context/city-hall/' },
             { label: 'Municipal powers', link: '/context/powers/' },

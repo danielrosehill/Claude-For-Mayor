@@ -2,7 +2,7 @@
 title: Shuttered shops, and nothing offered
 description: Traders in the city centre closing under prolonged works, with no meaningful compensation from a municipality whose collection enforcement is rigorous and whose relief is reluctant.
 date: 2026-08-10
-policy-area: city-centre-businesses
+policy-area: small-businesses
 status: cleaned
 source: Dictated by the repository owner, 10 August 2026. Raw transcript retained privately in `testimonies-raw/`, outside the published tree.
 ---

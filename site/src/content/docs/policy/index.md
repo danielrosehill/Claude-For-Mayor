@@ -6,8 +6,8 @@ sidebar:
   order: 0
 ---
 
-**Seven areas open**, all opened on 10 August 2026 by a single dictated account given in two
-sittings. All seven sit at stage 1: testimony exists, and nothing has been verified. No
+**Eight areas open**, all opened on 10 August 2026 by a single dictated account given in three
+sittings. All eight sit at stage 1: testimony exists, and nothing has been verified. No
 jurisdiction map has been built yet, which under
 [the powers doctrine](../method/powers-doctrine.md) means nothing may be proposed.
 
@@ -39,9 +39,10 @@ and the landing page.
 | [Housing supply](./housing-supply/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
 | [Construction disruption](./construction-disruption/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
 | [Construction noise](./construction-noise/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
-| [City-centre businesses](./city-centre-businesses/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
+| [Small businesses](./small-businesses/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
 | [Environmental quality](./environmental-quality/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
 | [Capital priorities](./capital-priorities/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
+| [Buses](./buses/index.md) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
 
 ✅ complete · 🟡 in progress · ⬜ not started
 

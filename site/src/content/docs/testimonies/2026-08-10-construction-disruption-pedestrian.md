@@ -26,4 +26,4 @@ processes for informing residents of disruptions, and for hearing their objectio
 nonexistent.
 
 There is also no compensation, which is the traders' side of the same story:
-[shuttered shops, and nothing offered](./2026-08-10-city-centre-businesses.md).
+[shuttered shops, and nothing offered](./2026-08-10-small-businesses.md).

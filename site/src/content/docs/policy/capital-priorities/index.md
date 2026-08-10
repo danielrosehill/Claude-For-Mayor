@@ -27,6 +27,13 @@ against money that was never fungible is rhetoric rather than analysis.
 If both survive, this becomes the area with the most direct bearing on every other one, because it
 is where the money for them would come from.
 
+**The same objection, made twice.** [What is good about the city](../../context/what-works.md)
+makes this argument again about a different exogenous bet — that the city is hitching its plans to
+a wave of diplomatic events and embassy openings. Tourism and diplomacy are the same shape of
+mistake: volatile, undiversified, and unresponsive to anything a mayor does. That account also
+offers the alternative this area otherwise lacks — remote work, fibre and rail connectivity as a
+resident-facing economic base. Neither the objection nor the alternative is verified.
+
 Nothing below stage 1 has been done.
 
 ## Pipeline status
@@ -57,6 +64,8 @@ and the evidence question are the same question here — "who funded it" is both
 | 7 | The municipality's own published rationale for these projects, quoted rather than paraphrased, per [the context rules](../../context/index.md) | `[UNVERIFIED]` |
 | 8 | Comparator: a city that reallocated prestige capital toward neighbourhood infrastructure, and one that went the other way, with what followed in each | `[UNVERIFIED]` |
 | 9 | Whether Jerusalem receives capital *because* it is Jerusalem — funding streams contingent on the national and religious significance, which would mean the money is not transferable at all | `[UNVERIFIED]` |
+| 10 | Whether the city's economic strategy is in fact coupled to diplomatic events and embassy openings, or whether that is an impression from public messaging — and what has been committed on the strength of it | `[UNVERIFIED]` |
+| 11 | The diversified alternative on offer: fibre penetration, Jerusalem–Tel Aviv rail performance, and whether a municipality holds any lever over a remote-work economy. Detailed in [what is good about the city](../../context/what-works.md) | `[UNVERIFIED]` |
 
 ### Attributions to test
 
@@ -67,3 +76,4 @@ and the evidence question are the same question here — "who funded it" is both
 | 3 | "The municipality trumpets these around the world" | Directly checkable against its own published material and press releases. Quote it; do not characterise it |
 | 4 | Residents do not benefit | An empirical claim about usage and local employment. The testimony offers one data point — the author has never used the walkway — which is evidence of experience and not of prevalence |
 | 5 | Banking on tourism is strategically bad | An economic judgement, not a jurisdictional one. It needs the volatility data in fact 4 and a named alternative development strategy, or it stays an opinion and is labelled as one |
+| 6 | A remote-work economy is the better bet | The proposed alternative, and it needs the same scrutiny the criticism gets. If the municipal lever over it turns out to be marketing, then this is advocacy too and should be labelled as such rather than promised |
