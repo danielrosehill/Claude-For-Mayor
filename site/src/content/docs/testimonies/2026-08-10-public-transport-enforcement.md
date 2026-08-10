@@ -34,7 +34,12 @@ And we have made the experience of using public transport almost as unpleasant a
 
 It is expensive to put on new lines and create new routes; I understand that. But why do we need
 to create this punitive enforcement regime to collect a fare of, say, a dollar — to fine people
-over maybe two dollars? *(The amounts are my own rough illustration, not quoted figures.)*
+over maybe two dollars?
+
+*Clarified by the speaker the same day: the single fare is about ₪5.90, and you pay it per ride —
+so what a journey actually costs depends on whether you hold a monthly pass or are paying one-off.
+The dollar figures move with the exchange rate. Treat all of it as a range rather than a precise
+number; the disproportion is the point, not the arithmetic.*
 
 It is the most short-sighted, petty thing. It not only makes using public transport worse than it
 needs to be, it sends a horrible message to tourists about the kind of city Jerusalem is. It

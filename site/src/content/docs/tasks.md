@@ -99,7 +99,7 @@ something.
 | 26 | Who employs and directs fare inspectors on Jerusalem buses and the light rail, and under what statutory power | Nothing | The operator/concession structure, the inspection power, and whether any conduct standard or complaint route exists | Whether the enforcement half of **public-transport** has a municipal hook at all |
 | 27 | The documented cases of inspector conduct described as a national media phenomenon | Recollection only | Sourced, dated reporting, characterised accurately rather than from memory | The **public-transport** problem statement — and the claim most likely to be overstated if left unchecked |
 | 28 | Whether what changed in the bus market was deregulation or competitive tendering | Testimony, hedged by the speaker | The reform's actual shape, because it determines who can change the outcome | **public-transport**, and a likely wrong-attribution finding |
-| 29 | The actual Jerusalem fare and the actual fine, in shekels | Illustrative dollar figures the speaker flagged as approximate | The published fare and penalty | Any use of the disproportion argument; the illustration must never become the citation |
+| 29 | The fare and the fine, in shekels | The account reports the single fare at about ₪5.90 per ride; the penalty is unknown, and the dollar figures were flagged by the speaker as approximate | The published tariff and penalty, plus how effective per-journey cost differs between a monthly pass and single fares | Any use of the disproportion argument; a resident-reported figure is not a citation |
 
 ## Next actions
 
