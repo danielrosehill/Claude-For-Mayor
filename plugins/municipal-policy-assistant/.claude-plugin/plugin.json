@@ -1,0 +1,12 @@
+{
+  "name": "municipal-policy-assistant",
+  "description": "A municipal policy development pipeline for Claude Code: turn raw first-person testimony into cleaned dated records, a jurisdiction map establishing who actually holds each lever, evidence-based research (city budgets, bylaws, CBS data, comparator cities), think-tank-style Typst/PDF policy papers, and a rolled-up program for the city.",
+  "version": "0.1.0",
+  "mcpServers": "./.mcp.json",
+  "author": {
+    "name": "Daniel Rosehill",
+    "url": "https://github.com/danielrosehill"
+  },
+  "homepage": "https://github.com/danielrosehill/Claude-For-Mayor",
+  "keywords": ["policy", "municipal", "local-government", "research", "typst", "civic-tech", "jerusalem", "israel"]
+}

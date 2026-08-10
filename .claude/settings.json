@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "claude-for-mayor": {
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-For-Mayor"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "municipal-policy-assistant@claude-for-mayor": true
+  }
+}

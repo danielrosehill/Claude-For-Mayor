@@ -1,0 +1,256 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+
+const base = import.meta.env.BASE_URL;
+const href = (p: string) => base.replace(/\/$/, '') + '/' + p.replace(/^\//, '');
+
+/**
+ * The platform's planks and how far each has actually got.
+ * Stage order: testimony → jurisdiction → research → paper → manifesto.
+ * Keep in step with the status table in tasks.md — that file is the source of truth.
+ *
+ * Empty by design: an area opens when a testimony opens it, not when a topic sounds
+ * important. The empty state below renders until the first one lands.
+ */
+const planks: {
+  title: string;
+  slug: string;
+  thesis: string;
+  stages: string[];
+  state: string;
+}[] = [];
+
+const stageNames = ['Testimony', 'Jurisdiction', 'Research', 'Paper', 'Manifesto'];
+---
+
+<StarlightPage
+  frontmatter={{
+    title: 'Claude-For-Mayor',
+    template: 'splash',
+    tableOfContents: false,
+    head: [
+      // Starlight would render "Claude-For-Mayor | Claude-For-Mayor" here.
+      {
+        tag: 'title',
+        content: 'Claude-For-Mayor — an AI-assisted municipal platform for Jerusalem',
+      },
+    ],
+  }}
+>
+  <p class="cfm-lede">
+    Jerusalem elects a mayor on promises about schools, buses, policing, cleanliness and
+    housing. A municipality's actual power over each of those ranges from near-total to
+    essentially none — and the ranking is not the one anyone campaigns on. This repository is
+    an experiment in building a mayoral platform <strong>properly</strong>: researched, costed,
+    honest about its trade-offs, and refusing to promise anything the office cannot deliver.
+  </p>
+
+  <p class="cfm-lede" style="margin-top:1rem;">
+    Claude is not running for mayor of Jerusalem, is not eligible to, and does not live here.
+    It is the sibling of <a href="https://github.com/danielrosehill/MK-Claude">MK-Claude</a>,
+    which does the same thing at national level — with one stage added, and that stage is the
+    whole point.
+  </p>
+
+  <hr class="cfm-rule" />
+
+  <div class="cfm-section-head">
+    <h2>The rule this project is built on</h2>
+    <p>
+      Most of what residents blame City Hall for is not City Hall's to fix. A good half of what
+      City Hall could fix tomorrow, nobody asks it to. Working out which is which is not a
+      preliminary to the policy work — it is the policy work.
+    </p>
+  </div>
+
+  <div class="cfm-note">
+    <p>
+      <strong>No proposal is published without a named instrument and a named holder of it.</strong>
+      Every lever is traced to the provision that creates it and classified: <strong>A</strong>
+      the municipality decides and funds it · <strong>B</strong> the municipality decides and a
+      ministry must approve · <strong>C</strong> delivery is municipal but policy or funding is
+      national · <strong>D</strong> not the municipality's at all.
+    </p>
+    <p style="margin-bottom:0;">
+      Class D is legitimate as <em>advocacy</em>, with a named counterpart and a real route — never
+      as a promise. And the mirror-image finding matters more: a power the municipality has held
+      for thirty years and never used is the most valuable thing this process can turn up.
+      <a href={href('method/powers-doctrine/')}>The powers doctrine in full</a>.
+    </p>
+  </div>
+
+  <hr class="cfm-rule" />
+
+  <div class="cfm-section-head">
+    <h2>The platform, as it stands</h2>
+    <p>
+      Nothing. The method is built and the content is not — no policy area has been opened,
+      because an area opens when there is a first-person account to open it with.
+    </p>
+  </div>
+
+  {
+    planks.length === 0 ? (
+      <div class="cfm-note">
+        <p style="margin-bottom:0;">
+          This is the honest state, and publishing it is deliberate. The pipeline, the{' '}
+          <a href={href('method/plugin/')}>plugin</a> that runs it and the{' '}
+          <a href={href('context/')}>context layer</a> exist; the threads have not been pulled.
+          When the first testimony lands, this page fills up.{' '}
+          <a href={href('tasks/')}>Everything blocking that is listed here</a>.
+        </p>
+      </div>
+    ) : (
+      <ul class="cfm-planks">
+        {planks.map((plank) => (
+          <li class="cfm-plank">
+            <h3><a href={href(plank.slug)}>{plank.title}</a></h3>
+            <p>{plank.thesis}</p>
+            <div
+              class="cfm-stages"
+              role="img"
+              aria-label={plank.stages.map((s, i) => `${stageNames[i]}: ${s}`).join(', ')}
+            >
+              {plank.stages.map((s) => <span data-state={s} />)}
+            </div>
+            <span class="cfm-state">{plank.state}</span>
+          </li>
+        ))}
+      </ul>
+    )
+  }
+
+  <hr class="cfm-rule" />
+
+  <div class="cfm-section-head">
+    <h2>How a plank gets written</h2>
+    <p>
+      Four stages and a gate, each with an artifact and a bar it must clear before the next one
+      starts. Nothing skips ahead.
+    </p>
+  </div>
+
+  <ol class="cfm-steps">
+    <li>
+      <div>
+        <strong>Testimony</strong>
+        <span>
+          A dated, cleaned first-person account. Evidence of experience — never of prevalence,
+          and at city scale that distinction bites. It also yields a list of{' '}
+          <em>attributions to test</em>: who the resident thinks is responsible.{' '}
+          <a href={href('testimonies/')}>Read them</a>.
+        </span>
+      </div>
+    </li>
+    <li>
+      <div>
+        <strong>Jurisdiction — the gate</strong>
+        <span>
+          Every lever traced to a cited instrument and classified A/B/C/D, with a dedicated hunt
+          for powers the city holds and does not use. The paper cannot be drafted until this
+          exists.
+        </span>
+      </div>
+    </li>
+    <li>
+      <div>
+        <strong>Evidence base</strong>
+        <span>
+          Six documents: the quantified problem by neighbourhood, the jurisdiction map, what is
+          on the books today, comparator cities including at least one Israeli municipality and
+          one instructive failure, a sourced statistical annex, and what City Hall has already
+          tried and dropped.
+        </span>
+      </div>
+    </li>
+    <li>
+      <div>
+        <strong>Policy paper</strong>
+        <span>
+          A think-tank product. Every recommendation carries a class letter, a mechanism, a named
+          budget line, a realistic route, and the failure mode it is designed against — plus a
+          steelmanned trade-offs section naming who loses.
+        </span>
+      </div>
+    </li>
+    <li>
+      <div>
+        <strong>Program for the city</strong>
+        <span>
+          The planks rolled up and sorted by deliverability before theme, checked for department
+          capacity, fiscal coherence and whether the council arithmetic actually delivers it.{' '}
+          <a href={href('pipeline/')}>The pipeline in full</a>.
+        </span>
+      </div>
+    </li>
+  </ol>
+
+  <hr class="cfm-rule" />
+
+  <div class="cfm-section-head">
+    <h2>What the ground looks like</h2>
+    <p>
+      The context the platform is written against, before a word of policy is drafted.
+    </p>
+  </div>
+
+  <ul class="cfm-findings">
+    <li class="cfm-finding">
+      <span class="cfm-figure">33.7%</span>
+      <p>
+        Turnout in the February 2024 Jerusalem municipal election. Two-thirds of the electorate
+        did not vote, in a mayoral contest decided 81–19. A platform aimed at people who already
+        vote is aimed at a third of the city.
+      </p>
+      <p><a href={href('context/the-election/')}>The election →</a></p>
+    </li>
+    <li class="cfm-finding">
+      <span class="cfm-figure">2 / 31</span>
+      <p>
+        Council seats held by the mayor's own list. Moshe Lion won 81% of the mayoral vote and
+        commands two seats of thirty-one; authority here is coalition authority, and any proposal
+        needing a vote needs an answer to that.
+      </p>
+      <p><a href={href('context/city-hall/')}>City Hall →</a></p>
+    </li>
+    <li class="cfm-finding">
+      <span class="cfm-figure">16 / 31</span>
+      <p>
+        Seats held by the Haredi lists between them — a bare majority on their own. There is no
+        council majority that excludes them, which is a constraint on the platform rather than a
+        complaint about it.
+      </p>
+      <p><a href={href('context/city-hall/')}>The arithmetic →</a></p>
+    </li>
+    <li class="cfm-finding" data-kind="counter">
+      <span class="cfm-figure">0</span>
+      <p>
+        Powers verified so far. The standing powers primer is currently a list of hypotheses and
+        a research plan, and it says so at the top. Under our own evidence rules none of it may be
+        cited yet.
+      </p>
+      <p><a href={href('context/powers/')}>What still has to be established →</a></p>
+    </li>
+  </ul>
+
+  <hr class="cfm-rule" />
+
+  <div class="cfm-section-head">
+    <h2>What this is not</h2>
+  </div>
+
+  <div class="cfm-note">
+    <p>
+      Not a real candidacy. Not an endorsement of any faction on the council. Not a claim that AI
+      should make policy — <strong>the human sets the values and the priorities</strong>; the AI
+      does research, drafting and stress-testing, and gets told when it is wrong.
+    </p>
+    <p style="margin-bottom:0;">
+      Think of it as civic engagement by other means: instead of complaining about the city,
+      writing down — rigorously, and with the powers actually checked — what a platform worth
+      voting for would contain. Corrections, better data and counterarguments are welcome,
+      especially with sources.{' '}
+      <a href="https://github.com/danielrosehill/Claude-For-Mayor/issues">Open an issue</a>.
+    </p>
+  </div>
+</StarlightPage>

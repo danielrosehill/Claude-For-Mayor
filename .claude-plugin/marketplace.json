@@ -1,0 +1,14 @@
+{
+  "name": "claude-for-mayor",
+  "owner": {
+    "name": "Daniel Rosehill",
+    "url": "https://github.com/danielrosehill"
+  },
+  "plugins": [
+    {
+      "name": "municipal-policy-assistant",
+      "source": "./plugins/municipal-policy-assistant",
+      "description": "Pipeline for evidence-based municipal policy: testimony capture → jurisdiction mapping → research → Typst policy papers → program for the city."
+    }
+  ]
+}
